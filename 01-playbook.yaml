@@ -1,0 +1,7 @@
+ echo "# test-ansible" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jjpae948/test-ansible.git
+git push -u origin main
